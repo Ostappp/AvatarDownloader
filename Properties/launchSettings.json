@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AvatarDownloader": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
