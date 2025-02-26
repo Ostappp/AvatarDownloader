@@ -38,11 +38,11 @@ namespace AvatarDownloader
             while (string.IsNullOrEmpty(login) || string.IsNullOrEmpty(pass))
             {
                 Console.WriteLine("Input your login to Facebook:");
-                login = "john.j83449152@gmail.com";// Console.ReadLine();
+                login = Console.ReadLine();
                 Console.WriteLine(login);
 
                 Console.WriteLine("Input your pass to Facebook:");
-                pass = "johnthetester";//Console.ReadLine();
+                pass = Console.ReadLine();
                 Console.WriteLine(pass);
             }
 
